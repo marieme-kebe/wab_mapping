@@ -4,7 +4,7 @@ project:
 
 website:
   page-navigation: true
-  title: "Marieme KEBE | Université Paris Cité / TGAE / Web Mapping"
+  title: "Marieme KEBE | Université Paris Cité / TGAE / WebMapping"
   description: Création d'un site dans le cursus Web Mapping de l'Université Paris Cité (Master TGAE)
   # favicon: img/logo.jpg
   back-to-top-navigation: true
