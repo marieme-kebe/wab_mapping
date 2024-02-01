@@ -78,9 +78,9 @@ website:
 format:
   html:
     grid:
-      sidebar-width: 300px
-      margin-width: 50px
-      # body-width: 800px
+      sidebar-width: 350px
+      margin-width: 0px
+      body-width: 800px
     theme: 
       - cosmo
       - styles.scss
