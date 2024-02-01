@@ -2,4 +2,4 @@
 title: "Cartographie Thématique : Répartion spatiale des cumuls de cas Covid-19 positifs dans le monde"
 ---
 
-![Covid-19 : Cumuls des cas positis pour chaque pays sur la période du 20 mars 2020 au 29 mars 2023 (source : JHU CSSE COVID-19 Dataset)](img/Carte_Thematique.jpg){.lightbox}
+![Covid-19 : Cumuls des cas positifs pour chaque pays sur la période du 20 mars 2020 au 29 mars 2023 (source : JHU CSSE COVID-19 Dataset)](img/Carte_Thematique.jpg){.lightbox}
