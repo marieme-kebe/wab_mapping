@@ -1,5 +1,5 @@
 ---
-title: "Cartographie Intéractive : Radioscopie spatiotemporelle de la Covid-19 dans le monde"
+title: "Cartographie intéractive : Radioscopie spatiotemporelle de la Covid-19 dans le monde"
 ---
 
 ```{=html}

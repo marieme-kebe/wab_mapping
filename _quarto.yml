@@ -1,19 +1,90 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "web_mapping"
+  page-navigation: true
+  title: "Marieme KEBE | Université Paris Cité / TGAE / Web Mapping"
+  description: Création d'un site dans le cursus Web Mapping de l'Université Paris Cité (Master TGAE)
+  # favicon: img/logo.jpg
+  back-to-top-navigation: true
+  search: 
+    location: navbar
+    type: overlay
+    copy-button: true
+
+  page-footer:
+    left: "&copy; Copyright 2024, Marieme KEBE"
+    right: "This page is built with [GitHub](https://github.com/) and [Quarto](https://quarto.org/)."
+
+  sidebar:
+    - id: site_web
+      logo: img/logo_upc.jpeg
+      collapse-level: 4
+      style: "docked"
+      # background: light
+      contents:
+        - section: "Cartographie interactive"
+          contents: 
+            - interactive_map.qmd
+        - section: "Cartographie thématique (statique)"
+          contents: 
+            - static_map.qmd
+
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    logo: img/Universite_Paris-Cite-logo.jpeg
+    search: true
+    # pinned: true
+    # left:
+      # - text: "Intéractive"
+      #   file: interactive_map.qmd
+      # - text: Cartographie
+      #   file: interactive_map.qmd
+      # - text: "CV"
+      #   file: about.qmd
+      # - text: Ressources
+      #   menu: 
+      #     - text: Github
+      #       href: https://github.com/
+      #       target: _blank
+      #     - text: Quarto
+      #       href: https://quarto.org/
+      #       target: _blank
+      #     - text: R Weekly
+      #       href: https://rweekly.org/
+      #       target: _blank
+      #     - text: R Bloggers
+      #       href: https://www.r-bloggers.com/
+      #       target: _blank
+      #     - text: ResearchGate
+      #       href: https://www.researchgate.net/
+      #       target: _blank
+      #     - text: Google Scholar
+      #       href: https://scholar.google.com/
+      #       target: _blank
+      
+    tools:
+      - icon: envelope
+        menu:
+          - text: mariemekebe935@gmail.com
+            href:  mailto:mariemekebe935@gmail.com
+            target: _blank
+      - icon: linkedin
+        menu:
+          - text: Profile
+            href:  https://www.linkedin.com/in/marieme-kebe-793b85213/
+            target: _blank
+          - text: Projets
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
-    toc: true
-
-
-
+    grid:
+      sidebar-width: 350px
+      margin-width: 50px
+      # body-width: 800px
+    theme: 
+      - cosmo
+      - styles.scss
+    toc: false
+    toc-title: Sur cette page
+    fig-cap-location: top

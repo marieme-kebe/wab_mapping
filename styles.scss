@@ -1,0 +1,233 @@
+/*-- scss:defaults --*/
+
+$white:    #fff !default;
+$teal: #047C90;
+$dark-blue: #003660;
+$upc_col: #8B1839;
+$blue: #0000ff;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$primary:  #06436e !default;
+$navbar-bg: #F8F9FA !default;
+$navbar-fg: $upc_col !default;
+$code-color: $primary !default;
+$font-family-base:  'Source Sans Pro',  'Lato', 'Merriweather', 'Roboto Regular', 'Cabin Regular' !default;
+$body-color: $gray-700 !default;
+$headings-font-family:  'Prata', 'Roboto', 'Playfair Display', 'Montserrat'    !default;
+
+/*-- scss:rules --*/
+
+// HTML selectors
+ol > li {
+    margin-bottom: $font-size-base * 0.25;
+}
+
+a {
+    text-decoration: none;
+    color: $teal;
+}
+
+strong, b {
+    font-weight: 900; // does not change weight?
+    color: $primary;
+}
+
+// horizontal line
+// hr {
+//     border: 5px solid red;
+//     border-radius: 0px;
+//     margin-bottom: 30px;
+// }
+
+.navbar-title {
+    font-family: "Oleo Script", 'Merriweather', 'Roboto', $headings-font-family;
+    color: $upc_col !important;
+    // border-bottom: 2px solid $upc_col;
+    border-radius: 0px;
+    margin-bottom: 30px;
+    text-align: right;
+    font-size: $font-size-base * 1.4;
+}
+
+a.navbar-brand:nth-child(1) {
+    width: 4cm;
+}
+
+.navbar-logo {
+    // width: 4cm;
+    height: 3cm;
+}
+
+.figure-caption {
+    font-family: "Oleo Script", 'Merriweather', 'Roboto', $headings-font-family;
+    color: $gray-800 !important;
+    // border-bottom: 2px solid $upc_col;
+    // border-radius: 0px;
+    // margin-bottom: 30px;
+    text-align: left;
+    font-size: $font-size-base * 1.5;
+}
+
+// h1 {
+//     font-family: "Oleo Script", 'Merriweather', 'Roboto', $headings-font-family;
+//     color: $upc_col !important;
+//     border-bottom: 2px solid $upc_col;
+//     border-radius: 0px;
+//     margin-bottom: 30px;
+//     text-align: right;
+//     font-size: $font-size-base * 1.4;
+// }
+
+.quarto-title .title{
+    font-family: "Oleo Script", 'Merriweather', 'Roboto', $headings-font-family;
+    color: $upc_col !important;
+    border-bottom: 2px solid $upc_col;
+    border-radius: 0px;
+    margin-bottom: 30px;
+    text-align: right;
+    font-size: $font-size-base * 1.4;
+}
+
+.sidebar-item-container{
+    font-family: "Oleo Script", 'Merriweather', 'Roboto', $headings-font-family;
+    font-size: $font-size-base * 1.2;
+    // color: $black !important;
+}
+
+a.sidebar-item-text.sidebar-link.text-start{
+    font-family: "Oleo Script", 'Merriweather', 'Roboto', $headings-font-family;
+    font-size: $font-size-base * 1.5;
+    color: $upc_col;
+}
+
+// .link_page{
+//     font-family: "Oleo Script", 'Merriweather', 'Roboto', $headings-font-family;
+//     color: $teal !important;
+//     border-bottom: 2px solid $dark-blue;
+//     border-radius: 0px;
+//     margin-bottom: 30px;
+//     text-align: center;
+//     font-size: $font-size-base * 1.4;
+// }
+  
+// h2.anchored {
+//     font-family: "Oleo Script", 'Merriweather', 'Roboto', $headings-font-family;
+//     font-size: $font-size-base * 1.2;
+// }
+
+// .home-page-subtitle {
+//     font-family: "Oleo Script", 'Merriweather', 'Roboto', $headings-font-family;
+//     font-size: $font-size-base * 1.5;
+//     color: $teal !important;
+//     border-bottom: 3px solid $teal;
+//     border-radius: 0px;
+//     margin-bottom: 30px;
+//     // text-align: right;
+// }
+
+// .home-page-subtitle-2 {
+//     font-family: "Oleo Script", 'Merriweather', 'Roboto', $headings-font-family;
+//     font-size: $font-size-base * 1.5;
+//     color: $gray-700 !important;
+//     border-bottom: 3px solid $gray-700;
+//     border-radius: 0px;
+//     margin-bottom: 30px;
+//     // text-align: right;
+// }
+
+// .skills-text {
+//     font-family: "Oleo Script", 'Merriweather', 'Roboto', $headings-font-family;
+//     font-size: $font-size-base * 1.12;
+//     color: $gray-600;
+// }
+
+// .contacts-text {
+//     font-family: "Oleo Script", 'Merriweather', 'Roboto', $headings-font-family;
+//     font-size: $font-size-base * 1.1;
+// }
+
+
+// .fas, .fa-solid{
+//     font-family: "Oleo Script", "Libre Baskerville", $headings-font-family;
+//     // color: $teal !important;
+// }
+
+// // #title-block-header.quarto-title-block.default .quarto-title .title {
+// //     font-family: "Oleo Script", "Libre Baskerville", $headings-font-family;
+// //     font-size: $font-size-base * 2.5;
+// // }
+  
+// .navbar-logo{
+//  height: 3cm;
+// }
+
+// // Position responsive elements
+// // .navbar {
+// //     height: 1.3cm;
+// //     .navbar-brand-container {
+// //       order: 2;
+// //     }
+// //     .navbar-toggler {
+// //       order: 3;
+// //       margin-right: 0;
+// //     }
+// //     .navbar-collapse {
+// //       order: 4;
+// //     }
+  
+// //     #quarto-search {
+// //       order: 1;
+// //     }
+// //   }
+
+// // .navbar-dark .navbar-brand {
+// //     font-family: "Oleo Script", 'Merriweather', 'Roboto', $headings-font-family;
+// //     font-size: $font-size-base * 1.75;
+// // }
+
+// .nav-item{
+//     font-family: "Oleo Script", 'Merriweather', 'Roboto', $headings-font-family;
+//     font-size: $font-size-base * 1.2;
+// }
+
+// .navbar-title {
+//     font-family: "Oleo Script", 'Merriweather', 'Roboto', $headings-font-family;
+//     font-size: $font-size-base * 1.7;
+//     color: $teal;
+// }
+
+// .show-abstract {
+//     font-family: "Oleo Script", 'Merriweather', 'Roboto', $headings-font-family;
+//     color: $teal;
+//     border: 0px solid white;
+//     font-weight: bold !important;
+// }
+  
+// caption {
+//     font-size: 16pt !important;
+//       line-height: 1.7em !important;
+//     text-align: center !important;
+//     color: $teal !important;
+//     margin-bottom: -.3em !important;
+//     line-height: 1.2em !important;
+// }
+
+// figcaption {
+//     font-size: 16pt !important;
+//       line-height: 1.7em !important;
+//     text-align: center !important;
+//     color: $teal !important;
+//     margin-top: -.44em !important;
+//     line-height: 1em !important;
+//   }
+
+  
