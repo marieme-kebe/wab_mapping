@@ -19,7 +19,7 @@ website:
 
   sidebar:
     - id: site_web
-      logo: img/logo_upc.jpeg
+      logo: img/logo_upc.jpg
       collapse-level: 4
       style: "docked"
       # background: light
@@ -78,12 +78,12 @@ website:
 format:
   html:
     grid:
-      sidebar-width: 350px
+      sidebar-width: 300px
       margin-width: 50px
       # body-width: 800px
     theme: 
       - cosmo
       - styles.scss
-    toc: false
+    # toc: true
     toc-title: Sur cette page
     fig-cap-location: top
