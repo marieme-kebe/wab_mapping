@@ -71,10 +71,9 @@ website:
             target: _blank
       - icon: linkedin
         menu:
-          - text: Profile
+          - text: Profile Linkedin
             href:  https://www.linkedin.com/in/marieme-kebe-793b85213/
             target: _blank
-          - text: Projets
 
 format:
   html:
